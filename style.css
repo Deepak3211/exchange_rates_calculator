@@ -81,9 +81,10 @@ p{
     font-size: small;
 
   }
-  .currency input{
+  .currency input {
     /* margin: 20px 0; */
-    width: 200px;
+    width: 100px;
+    overflow: hidden;
     
 
   }

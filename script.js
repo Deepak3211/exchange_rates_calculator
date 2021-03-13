@@ -24,7 +24,7 @@ try {
   await fetch(`https://api.exchangeratesapi.io/latest?base=${currencyOne}`)
   .then(res=>res.json())
   .then(resData => {
-    console.log(resData)
+    // console.log(resData)
     
     const rate = resData.rates[currencyTwo];
     // console.log(rate);
