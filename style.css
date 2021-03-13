@@ -72,10 +72,18 @@ p{
 
 }
 @media screen and (max-width: 600px) {
-  .currency input {
+  h1{
+    font-size: medium;
+    font-weight: bolder;
+  }
+  p{
+    font-size: small;
+
+  }
+  .container{
     /* margin: 20px 0; */
     width: 300px;
-    margin: 1rem;
+    overflow-x: hidden;
 
   }
 
